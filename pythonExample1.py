@@ -1,14 +1,5 @@
-#import sys
-#Simple program to find the nth element from a sentence in forward or reverse direction
+#Simple program to find the nth element from a sentence based on start as true or false
 
-
-#import sys
-#Simple program to find the nth element from a sentence
-
-#This function takes a sentence, position and start parameter and returns the position word from the 
-# start or end depending on the parameter
-#Sample input 1:  findNthWord("My name is xyz", 2, true) returns "name"
-#Sample input 2:  findNthWord("My name is xyz", 2, false) returns "is"
 def findNthWord(sentence, position, start):
 	words = sentence.split(' ')
 	if(position < 1 or position > len(words)):
